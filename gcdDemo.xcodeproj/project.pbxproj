@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4486A1F71F4D961A00AE6351 /* gcd 线程间通信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gcd 线程间通信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4486A1F71F4D961A00AE6351 /* gcdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gcdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486A1FB1F4D961A00AE6351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4486A1FD1F4D961A00AE6351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4486A1FE1F4D961A00AE6351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		4486A2061F4D961A00AE6351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4486A2091F4D961A00AE6351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4486A20B1F4D961A00AE6351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4486A2101F4D961A00AE6351 /* gcd 线程间通信Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gcd 线程间通信Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4486A2101F4D961A00AE6351 /* gcdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gcdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486A2141F4D961A00AE6351 /* gcd______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "gcd______Tests.m"; sourceTree = "<group>"; };
 		4486A2161F4D961A00AE6351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4486A21B1F4D961B00AE6351 /* gcd 线程间通信UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gcd 线程间通信UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4486A21B1F4D961B00AE6351 /* gcdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gcdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486A21F1F4D961B00AE6351 /* gcd______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "gcd______UITests.m"; sourceTree = "<group>"; };
 		4486A2211F4D961B00AE6351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		4486A1F81F4D961A00AE6351 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4486A1F71F4D961A00AE6351 /* gcd 线程间通信.app */,
-				4486A2101F4D961A00AE6351 /* gcd 线程间通信Tests.xctest */,
-				4486A21B1F4D961B00AE6351 /* gcd 线程间通信UITests.xctest */,
+				4486A1F71F4D961A00AE6351 /* gcdDemo.app */,
+				4486A2101F4D961A00AE6351 /* gcdDemoTests.xctest */,
+				4486A21B1F4D961B00AE6351 /* gcdDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4486A1F61F4D961A00AE6351 /* gcd 线程间通信 */ = {
+		4486A1F61F4D961A00AE6351 /* gcdDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4486A2241F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcd 线程间通信" */;
+			buildConfigurationList = 4486A2241F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcdDemo" */;
 			buildPhases = (
 				4486A1F31F4D961A00AE6351 /* Sources */,
 				4486A1F41F4D961A00AE6351 /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = "gcd 线程间通信";
+			name = gcdDemo;
 			productName = "gcd 线程间通信";
-			productReference = 4486A1F71F4D961A00AE6351 /* gcd 线程间通信.app */;
+			productReference = 4486A1F71F4D961A00AE6351 /* gcdDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4486A20F1F4D961A00AE6351 /* gcd 线程间通信Tests */ = {
+		4486A20F1F4D961A00AE6351 /* gcdDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4486A2271F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcd 线程间通信Tests" */;
+			buildConfigurationList = 4486A2271F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcdDemoTests" */;
 			buildPhases = (
 				4486A20C1F4D961A00AE6351 /* Sources */,
 				4486A20D1F4D961A00AE6351 /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				4486A2121F4D961A00AE6351 /* PBXTargetDependency */,
 			);
-			name = "gcd 线程间通信Tests";
+			name = gcdDemoTests;
 			productName = "gcd 线程间通信Tests";
-			productReference = 4486A2101F4D961A00AE6351 /* gcd 线程间通信Tests.xctest */;
+			productReference = 4486A2101F4D961A00AE6351 /* gcdDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4486A21A1F4D961A00AE6351 /* gcd 线程间通信UITests */ = {
+		4486A21A1F4D961A00AE6351 /* gcdDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4486A22A1F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcd 线程间通信UITests" */;
+			buildConfigurationList = 4486A22A1F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcdDemoUITests" */;
 			buildPhases = (
 				4486A2171F4D961A00AE6351 /* Sources */,
 				4486A2181F4D961A00AE6351 /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				4486A21D1F4D961B00AE6351 /* PBXTargetDependency */,
 			);
-			name = "gcd 线程间通信UITests";
+			name = gcdDemoUITests;
 			productName = "gcd 线程间通信UITests";
-			productReference = 4486A21B1F4D961B00AE6351 /* gcd 线程间通信UITests.xctest */;
+			productReference = 4486A21B1F4D961B00AE6351 /* gcdDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4486A1F21F4D961A00AE6351 /* Build configuration list for PBXProject "gcd 线程间通信" */;
+			buildConfigurationList = 4486A1F21F4D961A00AE6351 /* Build configuration list for PBXProject "gcdDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4486A1F61F4D961A00AE6351 /* gcd 线程间通信 */,
-				4486A20F1F4D961A00AE6351 /* gcd 线程间通信Tests */,
-				4486A21A1F4D961A00AE6351 /* gcd 线程间通信UITests */,
+				4486A1F61F4D961A00AE6351 /* gcdDemo */,
+				4486A20F1F4D961A00AE6351 /* gcdDemoTests */,
+				4486A21A1F4D961A00AE6351 /* gcdDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		4486A2121F4D961A00AE6351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4486A1F61F4D961A00AE6351 /* gcd 线程间通信 */;
+			target = 4486A1F61F4D961A00AE6351 /* gcdDemo */;
 			targetProxy = 4486A2111F4D961A00AE6351 /* PBXContainerItemProxy */;
 		};
 		4486A21D1F4D961B00AE6351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4486A1F61F4D961A00AE6351 /* gcd 线程间通信 */;
+			target = 4486A1F61F4D961A00AE6351 /* gcdDemo */;
 			targetProxy = 4486A21C1F4D961B00AE6351 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,7 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gome.cn.gcd------Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcd 线程间通信.app/gcd 线程间通信";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcdDemo.app/gcdDemo";
 			};
 			name = Debug;
 		};
@@ -464,7 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gome.cn.gcd------Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcd 线程间通信.app/gcd 线程间通信";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcdDemo.app/gcdDemo";
 			};
 			name = Release;
 		};
@@ -493,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4486A1F21F4D961A00AE6351 /* Build configuration list for PBXProject "gcd 线程间通信" */ = {
+		4486A1F21F4D961A00AE6351 /* Build configuration list for PBXProject "gcdDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4486A2221F4D961B00AE6351 /* Debug */,
@@ -502,29 +502,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4486A2241F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcd 线程间通信" */ = {
+		4486A2241F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcdDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4486A2251F4D961B00AE6351 /* Debug */,
 				4486A2261F4D961B00AE6351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4486A2271F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcd 线程间通信Tests" */ = {
+		4486A2271F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcdDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4486A2281F4D961B00AE6351 /* Debug */,
 				4486A2291F4D961B00AE6351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4486A22A1F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcd 线程间通信UITests" */ = {
+		4486A22A1F4D961B00AE6351 /* Build configuration list for PBXNativeTarget "gcdDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4486A22B1F4D961B00AE6351 /* Debug */,
 				4486A22C1F4D961B00AE6351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

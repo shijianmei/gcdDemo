@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4486A1F61F4D961A00AE6351"
-               BuildableName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.app"
-               BlueprintName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;"
-               ReferencedContainer = "container:gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.xcodeproj">
+               BuildableName = "gcdDemo.app"
+               BlueprintName = "gcdDemo"
+               ReferencedContainer = "container:gcdDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4486A20F1F4D961A00AE6351"
-               BuildableName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;Tests.xctest"
-               BlueprintName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;Tests"
-               ReferencedContainer = "container:gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.xcodeproj">
+               BuildableName = "gcdDemoTests.xctest"
+               BlueprintName = "gcdDemoTests"
+               ReferencedContainer = "container:gcdDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4486A21A1F4D961A00AE6351"
-               BuildableName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;UITests.xctest"
-               BlueprintName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;UITests"
-               ReferencedContainer = "container:gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.xcodeproj">
+               BuildableName = "gcdDemoUITests.xctest"
+               BlueprintName = "gcdDemoUITests"
+               ReferencedContainer = "container:gcdDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4486A1F61F4D961A00AE6351"
-            BuildableName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.app"
-            BlueprintName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;"
-            ReferencedContainer = "container:gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.xcodeproj">
+            BuildableName = "gcdDemo.app"
+            BlueprintName = "gcdDemo"
+            ReferencedContainer = "container:gcdDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4486A1F61F4D961A00AE6351"
-            BuildableName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.app"
-            BlueprintName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;"
-            ReferencedContainer = "container:gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.xcodeproj">
+            BuildableName = "gcdDemo.app"
+            BlueprintName = "gcdDemo"
+            ReferencedContainer = "container:gcdDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4486A1F61F4D961A00AE6351"
-            BuildableName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.app"
-            BlueprintName = "gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;"
-            ReferencedContainer = "container:gcd &#x7ebf;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;.xcodeproj">
+            BuildableName = "gcdDemo.app"
+            BlueprintName = "gcdDemo"
+            ReferencedContainer = "container:gcdDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

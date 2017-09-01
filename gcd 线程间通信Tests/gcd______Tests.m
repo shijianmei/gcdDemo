@@ -1,6 +1,6 @@
 //
 //  gcd______Tests.m
-//  gcd 线程间通信Tests
+//  gcd DemoTests
 //
 //  Created by Jianmei on 2017/8/23.
 //  Copyright © 2017年 Jianmei. All rights reserved.
